@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DK</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Create Account</h2>
+		</div>
+
+		<form id="form" class="form">
+            <div class="hienThi" id='errorText'></div>
+			<div class="form-control">
+				<label for="username">UserName</label>
+				<input type="text" name="username" placeholder="......" id="username">
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+    			<small>Error message</small>
+			</div>
+
+            <div class="form-radio">
+                <label for="username">Gender</label>
+                <input type="radio" name="gender" id="gender_Male" value="Male" />Male
+                <input type="radio" name="gender" id="gender_Female" value="Female" />Female
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+			<div class="form-control">
+    			<label for="username">Phone</label>
+    			<input type="tel" placeholder="xxxxxxxxxx" id="phone" />
+    			<i class="fas fa-check-circle"></i>
+    			<i class="fas fa-exclamation-circle"></i>
+    			<small>Error message</small>
+    		</div>
+
+
+			<div class="form-control">
+    			<label for="username">Email</label>
+    			<input type="email" placeholder="a@gmail.com" id="email" />
+    			<i class="fas fa-check-circle"></i>
+    			<i class="fas fa-exclamation-circle"></i>
+    			<small>Error message</small>
+    		</div>
+
+            <div class="form-control">
+                <label for="username">Profession</label>
+                <select id='profession'>
+                    <option  id='id1' value="1">Chọn nghề</option>
+                    <option  value="2">IT</option>
+                    <option  value="3">Design</option>
+                    <option  value="4">Teacher</option>
+                </select>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+    		<div class="form-control">
+    			<label for="username">Password</label>
+    			<input type="password" placeholder="Password" id="password"/>
+    			<i class="fas fa-check-circle"></i>
+    			<i class="fas fa-exclamation-circle"></i>
+    			<small>Error message</small>
+    		</div>
+
+    		<div class="form-control">
+    			<label for="username">Password check</label>
+    			<input type="password" placeholder="Password two" id="password2"/>
+    			<i class="fas fa-check-circle"></i>
+    			<i class="fas fa-exclamation-circle"></i>
+    			<small>Error message</small>
+    		</div>
+			
+			<button>Submit</button>
+    		
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
